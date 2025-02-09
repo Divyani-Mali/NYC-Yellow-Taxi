@@ -1,5 +1,5 @@
 #🚖 NYC Taxi Fare Price Prediction
-📌 Project Overview
+\n📌 Project Overview
 This project aims to predict taxi fare prices based on key ride features such as trip distance, passenger count, and payment type. Using machine learning, we analyze historical taxi trip data to build a predictive model that helps estimate fares accurately.
 
 📊 Dataset Description
