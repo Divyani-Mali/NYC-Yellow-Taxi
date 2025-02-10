@@ -1,4 +1,4 @@
-#🚖 NYC Taxi Fare Price Prediction  
+🚖 NYC Taxi Fare Price Prediction  
 
 📌 Project Overview  
 
@@ -6,47 +6,47 @@ This project aims to predict taxi fare prices based on key ride features such as
 
 📊 Dataset Description  
 
-The dataset consists of taxi ride records with the following key attributes:
+1. The dataset consists of taxi ride records with the following key attributes:
 
-Passenger Count – Number of passengers in the taxi. 
+2. Passenger Count – Number of passengers in the taxi. 
 
-Trip Distance – Distance traveled during the trip (in miles).
+3. Trip Distance – Distance traveled during the trip (in miles).
 
-Payment Type – Method of payment (Card/Cash).
+4. Payment Type – Method of payment (Card/Cash).
 
-Fare Amount – Actual fare paid for the ride.
+5. Fare Amount – Actual fare paid for the ride.
 
-Trip Duration – Time taken for the trip (in minutes).
+6. Trip Duration – Time taken for the trip (in minutes).
 
 🛠️ Technologies Used
 
-Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+1. Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
 
-Machine Learning Algorithms (Linear Regression, Decision Trees, Random Forest)
+2. Machine Learning Algorithms (Linear Regression, Decision Trees, Random Forest)
 
-Data Visualization (Heatmaps, Histograms)
+3. Data Visualization (Heatmaps, Histograms)
 
 📈 Model Development  
 
-Data Preprocessing:
+  Data Preprocessing:
 
-Handling missing values and duplicates.
+1. Handling missing values and duplicates.
 
-Encoding categorical variables (payment type).
+2. Encoding categorical variables (payment type).
 
-Feature scaling for better model performance.
+3. Feature scaling for better model performance.
 
-Exploratory Data Analysis (EDA):
+4. Exploratory Data Analysis (EDA):
 
-Correlation heatmaps to understand feature relationships.
+5. Correlation heatmaps to understand feature relationships.
 
-Distribution plots for fare amount and trip distance.
+6. Distribution plots for fare amount and trip distance.
 
-Model Training & Evaluation:
+    Model Training & Evaluation:
 
-Implemented Linear Regression.
+    Implemented Linear Regression.
 
-Evaluated performance using MAE, MSE, and R² Score.  
+    Evaluated performance using MAE, MSE, and R² Score.  
 
 
 Trip distance is the most significant factor in fare prediction.
