@@ -32,8 +32,11 @@ def get_dashboard_stats():
     fare_distance_corr = float(taxi_data["fare_amount"].corr(taxi_data["trip_distance"]))
 
     fare_bins = pd.cut(taxi_data["fare_amount"], bins=10).value_counts().sort_index()
-    fare_histogram = {str(k): int(v) for k, v in fare_bins.items()}
-
+    fare_histogram = {
+        f"${interval.left:.0f}-{interval.right:.0f}": int(count)
+        for interval, count in fare_bins.items()
+    }
+    
     return {
         "avg_fare_by_payment": avg_fare_by_payment,
         "avg_distance_by_payment": avg_distance_by_payment,
